@@ -1,0 +1,546 @@
+html {
+    font-size: 14px !important;
+}
+
+* {
+    font-family: "Roboto";
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("resources/fonts/roboto.regular.ttf");
+}
+
+@font-face {
+    font-family: "Monarda";
+    src: url("resources/fonts/Monarda.ttf");
+}
+
+@font-face {
+    font-family: "Georgia";
+    src: url("resources/fonts/Georgia\ Bold\ Italic\ font.ttf");
+}
+
+.b {
+    background-image: url("resources/bg_index.webp");
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+.welcomeTitleDiv {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.welcomeTitle {
+    font-family: "Monarda" !important;
+    letter-spacing: 3px;
+}
+
+.e {
+    white-space: nowrap;
+}
+
+.iam {
+    font-size: 1.8rem !important;
+}
+
+.userMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.userdiv {
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 3px !important;
+    margin-bottom: 3px !important;
+    margin-left: 3px !important;
+    margin-right: 3px !important;
+    display: block;
+    box-shadow: 2px 5px 12px 2px rgba(19, 19, 19, 0.12), -2px -2px 12px 2px rgba(19, 19, 19, 0.12);
+    transition-duration: 200ms;
+    border-radius: 8px;
+    background-color: white;
+
+}
+
+#student {
+    box-shadow: 2px 5px 12px 2px rgba(66, 142, 175, 0.6), -2px -2px 12px 2px rgba(66, 142, 175, 0.6);
+}
+
+#teacher {
+    box-shadow: 2px 5px 12px 2px rgba(90, 175, 66, 0.6), -2px -2px 12px 2px rgba(90, 175, 66, 0.6);
+}
+
+#officer {
+    box-shadow: 2px 5px 12px 2px rgba(255, 140, 39, 0.6), -2px -2px 12px 2px rgba(255, 140, 39, 0.6);
+}
+
+#admin {
+    box-shadow: 2px 5px 12px 2px rgba(255, 21, 21, 0.6), -2px -2px 12px 2px rgba(255, 21, 21, 0.6);
+}
+
+#student:hover {
+    background-color: rgb(66, 142, 175);
+    color: white;
+}
+
+#teacher:hover {
+    background-color: rgb(90, 175, 66);
+    color: white;
+}
+
+#officer:hover {
+    background-color: rgb(255, 140, 39);
+    color: white;
+}
+
+#admin:hover {
+    background-color: rgb(255, 21, 21);
+    color: white;
+}
+
+.userText {
+    font-size: 1rem !important;
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.bstu {
+    background-image: url("resources/bgstud.webp");
+    background-position: center;
+    background-repeat: repeat-y;
+}
+
+.bteac {
+    background-image: url("resources/bgteac.webp");
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+.bac {
+    background-image: url("resources/bgac.webp");
+    background-position: center;
+    background-repeat: repeat-y;
+}
+
+.badm {
+    background-image: url("resources/bgad.jpg");
+    background-position: center;
+    background-repeat: repeat-y;
+}
+
+.stuTitle {
+    font-family: "Georgia" !important;
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+    color: rgb(0, 85, 255) !important;
+}
+
+.teacTitle {
+    font-family: "Georgia" !important;
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+    color: rgb(128, 197, 49) !important;
+}
+
+.acTitle {
+    font-family: "Georgia" !important;
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+    color: rgb(233, 102, 2) !important;
+}
+
+.adTitle {
+    font-family: "Georgia" !important;
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+    color: rgb(209, 24, 4) !important;
+}
+
+.s_imageDiv {
+    background-image: url("resources/s_image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 50vh;
+}
+
+.t_imageDiv {
+    background-image: url("resources/t_image.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 50vh;
+}
+
+.ac_imageDiv {
+    background-image: url("resources/ac_image.webp");
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 50vh;
+}
+
+.ad_imageDiv {
+    background-image: url("resources/ad_image.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 50vh;
+}
+
+.username {
+    font-size: 1rem;
+    margin-bottom: 0.5rem !important;
+    font-weight: bold;
+}
+
+.password {
+    font-size: 1rem;
+    margin-top: 1rem !important;
+    margin-bottom: 0.5rem !important;
+    font-weight: bold;
+}
+
+.rememberMeDiv {
+    margin-top: 1.5rem !important;
+}
+
+.remLabel {
+    cursor: pointer !important;
+    font-size: 0.9rem !important;
+}
+
+.signInBtnDiv {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.anotherUser{
+    text-decoration: none;
+    color: #545454;
+    font-weight: bold;
+}
+
+.anotherUser:hover{
+    cursor: pointer;
+    color: #333333;
+}
+
+.forgotPasswordstu {
+    text-decoration: none;
+    color: rgb(0, 85, 255);
+}
+
+.forgotPasswordstu:hover {
+    cursor: pointer;
+    color: rgb(0, 38, 255);
+}
+
+.forgotPasswordteac {
+    text-decoration: none;
+    color: rgb(10, 163, 2);
+}
+
+.forgotPasswordteac:hover {
+    cursor: pointer;
+    color: rgb(8, 126, 2);
+}
+
+.forgotPasswordac {
+    text-decoration: none;
+    color: rgb(255, 140, 0);
+}
+
+.forgotPasswordac:hover {
+    cursor: pointer;
+    color: rgb(232, 128, 0);
+}
+
+.forgotPasswordad {
+    text-decoration: none;
+    color: rgb(213, 34, 3);
+}
+
+.forgotPasswordad:hover {
+    cursor: pointer;
+    color: rgb(169, 29, 4);
+}
+
+.fPwBg {
+    background-image: url("resources/fpwBg.jpg");
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: center;
+}
+
+.fpField {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+    background-color: rgba(50, 131, 198, 0.301);
+    border: solid;
+    border-width: 2px;
+    border-color: rgba(50, 131, 198, 0.478);
+    border-radius: 8px;
+}
+
+.fPTitle {
+    padding-top: 2.5rem !important;
+    color: rgb(0, 110, 255) !important;
+}
+
+.fptxt {
+    padding-top: 0.5rem !important;
+    font-weight: 700;
+}
+
+.fptxt2 {
+    color: rgb(57, 57, 57);
+    padding-bottom: 0.5rem;
+}
+
+.main {
+    width: 100vw;
+}
+
+.mainDiv {
+    padding-left: 0.8rem !important;
+    padding-right: 0.8rem !important;
+    width: 100%;
+    height: max-content;
+    margin: 0px !important;
+    background-color: rgb(236, 236, 236);
+}
+
+.mainheaderDiv {
+    padding-top: 1.5rem !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+
+.sideheaderDiv {
+    font-size: 1.15rem !important;
+    margin-top: 1rem !important;
+    margin-bottom: 2rem !important;
+    width: 27% !important;
+    height: max-content;
+    box-shadow: 0.5px 0.5px 10px 0.5px rgba(66, 142, 175, 0.6), -0.5px -0.5px 10px 0.5px rgba(66, 142, 175, 0.6) !important;
+
+}
+
+.sideheaderImageDiv {
+    max-width: 90px !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.sideHeaderProfile {
+    font-size: 0.9rem !important;
+    font-weight: 700;
+    color: gray;
+}
+
+.sideHeaderProfileItems {
+    font-size: 0.9rem !important;
+    font-weight: 500;
+    color: rgb(100, 100, 100);
+}
+
+.sidePopMenu {
+    width: fit-content;
+    padding: 0.5rem !important;
+}
+
+.contentDiv {
+    margin-top: 1rem !important;
+    margin-bottom: 2rem !important;
+    width: 100% !important;
+}
+
+.contentDivViewArea {
+    width: 100%;
+    height: 60vh;
+    overflow-y: scroll;
+    padding: 0.5rem;
+}
+
+.filterMenu {
+    margin: 0.5rem !important;
+    background-color: rgb(216, 216, 216);
+    border-radius: 10px;
+}
+
+.nothingText {
+    margin-top: 1rem !important;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: rgb(161, 161, 161);
+}
+
+.file_item {
+    margin-bottom: 3px;
+    min-height: fit-content;
+    padding: 1rem;
+    background-color: rgb(248, 248, 248) !important;
+    border: solid !important;
+    border-width: 2px !important;
+    border-radius: 8px !important;
+    border-color: rgb(238, 238, 238) !important;
+}
+
+.invitations {
+    margin-bottom: 3px;
+    min-height: fit-content;
+    padding: 1rem;
+    background-color: rgb(213, 243, 255) !important;
+    border: solid !important;
+    border-width: 2px !important;
+    border-radius: 8px !important;
+    border-color: rgb(170, 213, 230) !important;
+}
+
+.invitation_name{
+    width: 300px !important;
+}
+
+.req {
+    color: #DB2828;
+}
+
+@media(max-width:576px) {
+    .welcomeTitle {
+        font-size: 1.7rem !important;
+    }
+
+    .userdiv {
+        width: 50% !important;
+    }
+}
+
+@media(min-width:576px) {
+    .welcomeTitle {
+        font-size: 1.9rem !important;
+    }
+
+    .areyou {
+        font-size: 1.5rem !important;
+    }
+
+    .userdiv {
+        width: 50% !important;
+    }
+
+}
+
+@media(min-width:768px) {
+    .welcomeTitle {
+        font-size: 2rem !important;
+    }
+
+    .areyou {
+        font-size: 1.8rem !important;
+    }
+
+    .userText {
+        font-size: 1.1rem !important;
+    }
+
+    .file_item_name {
+        border-right: solid;
+        border-width: 2px;
+        border-color: rgb(238, 238, 238) !important;
+    }
+
+    .file_item_action {
+        padding-top: 2rem !important;
+    }
+
+}
+
+@media(min-width:992px) {
+    .welcomeTitle {
+        font-size: 2.5rem !important;
+    }
+
+    .areyou {
+        font-size: 2rem !important;
+    }
+
+    .userText {
+        font-size: 1.2rem !important;
+    }
+
+    .userMain {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #officer {
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+    }
+
+    .sideheaderDiv {
+        width: 27% !important;
+    }
+
+    .contentDiv {
+        width: 73% !important;
+    }
+
+}
+
+@media(min-width:1200px) {
+    .welcomeTitle {
+        font-size: 3rem !important;
+    }
+
+    .areyou {
+        font-size: 2.3rem !important;
+    }
+
+    .userText {
+        font-size: 1.3rem !important;
+    }
+
+    .userMain {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #officer {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .sideheaderDiv {
+        width: 24% !important;
+    }
+
+    .contentDiv {
+        width: 76% !important;
+    }
+
+}
+
+@media(min-width:1400px) {
+    .sideheaderDiv {
+        width: 20% !important;
+    }
+
+    .contentDiv {
+        width: 80% !important;
+    }
+
+}
